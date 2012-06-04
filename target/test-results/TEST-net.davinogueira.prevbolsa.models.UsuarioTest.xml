@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="note-davi" name="net.davinogueira.prevbolsa.models.UsuarioTest" tests="1" time="0.074" timestamp="2011-06-30T13:53:07">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ivy.retrieve.pattern.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="java.vendor.url.ivy.instance" value="http://java.sun.com/" />
+    <property name="ivy.project.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ivy.resolve.default.type.filter" value="*" />
+    <property name="java.home" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre" />
+    <property name="ivy.configurations.ivy.instance" value="*" />
+    <property name="test.src.dir" value="src/test/java" />
+    <property name="ivy.basedir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/endorsed" />
+    <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/xercesImpl.jar:/usr/share/tomcat6/lib/jsp-api.jar:/usr/share/tomcat6/lib/servlet-api.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-nodeps.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/junit.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/lib/tools.jar" />
+    <property name="ivy.home" value="/home/davi/.ivy2" />
+    <property name="src.dir" value="src/main/java" />
+    <property name="java.vm.specification.vendor.ivy.instance" value="Sun Microsystems Inc." />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ivy.dep.file" value="ivy.xml" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="ivy.lib.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/lib" />
+    <property name="java.version" value="1.6.0_24" />
+    <property name="ivy.conf.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64" />
+    <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ivy.module" value="prevbolsa" />
+    <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="js.dir" value="src/main/webapp/javascripts" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Server Compiler" />
+    <property name="ant.project.invoked-targets" value="war" />
+    <property name="os.name.ivy.instance" value="Linux" />
+    <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/davi/.ivy2" />
+    <property name="ivy.default.always.check.exact.revision" value="false" />
+    <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/home/davi/desenvolvimento/workspace/prevbolsa/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="user.name" value="davi" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+    <property name="output.dir" value="target" />
+    <property name="file.encoding.ivy.instance" value="UTF-8" />
+    <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+    <property name="ivy.conf.file.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="java.specification.vendor.ivy.instance" value="Sun Microsystems Inc." />
+    <property name="java.vendor.ivy.instance" value="Sun Microsystems Inc." />
+    <property name="lib.dir" value="src/main/webapp/WEB-INF/lib" />
+    <property name="sun.cpu.isalist.ivy.instance" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="java.endorsed.dirs.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/endorsed" />
+    <property name="css.dir" value="src/main/webapp/stylesheets" />
+    <property name="path.separator" value=":" />
+    <property name="java.class.version.ivy.instance" value="50.0" />
+    <property name="ivy.default.conf.dir" value="jar:file:/home/davi/desenvolvimento/workspace/prevbolsa/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="project.name" value="prevbolsa" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.runtime.name.ivy.instance" value="Java(TM) SE Runtime Environment" />
+    <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+    <property name="ant.project.default-target" value="war" />
+    <property name="ivy.targets.copied" value="false" />
+    <property name="ant.file" value="/home/davi/desenvolvimento/workspace/prevbolsa/build.xml" />
+    <property name="ivy.distrib.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib" />
+    <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+    <property name="sun.arch.data.model.ivy.instance" value="64" />
+    <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/build/artifacts" />
+    <property name="ivy.settings.file" value="ivysettings.xml" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+    <property name="ivy.cache.ttl.default" value="10s" />
+    <property name="user.language" value="pt" />
+    <property name="user.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ivy.home.ivy.instance" value="/home/davi/.ivy2" />
+    <property name="line.separator" value="
+" />
+    <property name="java.specification.version.ivy.instance" value="1.6" />
+    <property name="ant.file.type" value="file" />
+    <property name="ivy.build.artifacts.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa/build/artifacts" />
+    <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+    <property name="ivy.status" value="integration" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ivy.lib.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa/lib" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/home/davi/desenvolvimento/workspace/prevbolsa/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="java.vm.version.ivy.instance" value="19.1-b02" />
+    <property name="user.name.ivy.instance" value="davi" />
+    <property name="ivy.cache.dir" value="/home/davi/.ivy2/cache" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+    <property name="ant.version" value="Apache Ant version 1.8.1 compiled on October 13 2010" />
+    <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre" />
+    <property name="java.vm.vendor.ivy.instance" value="Sun Microsystems Inc." />
+    <property name="test.build.dir" value="target/test-classes" />
+    <property name="ivy.default.settings.dir" value="jar:file:/home/davi/desenvolvimento/workspace/prevbolsa/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.configurations" value="*" />
+    <property name="ivy.settings.url" value="file:/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="os.name" value="Linux" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+    <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="webapp.dir" value="src/main/webapp" />
+    <property name="ivy.checksums" value="sha1,md5" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ivy.jar.file" value="ivy-2.2.0.jar" />
+    <property name="ivy.log.modules.in.use" value="false" />
+    <property name="java.runtime.version.ivy.instance" value="1.6.0_24-b07" />
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ivy.version" value="2.2.0" />
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64/server:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="ivy.conf.url" value="file:/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="java.vm.name.ivy.instance" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="os.version.ivy.instance" value="2.6.38-8-generic" />
+    <property name="line.separator.ivy.instance" value="
+" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="sun.desktop.ivy.instance" value="gnome" />
+    <property name="sun.cpu.endian.ivy.instance" value="little" />
+    <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+    <property name="basedir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="java.class.version" value="50.0" />
+    <property name="ant.file.vraptor-scaffold" value="/home/davi/desenvolvimento/workspace/prevbolsa/build.xml" />
+    <property name="ivy.settings.url.ivy.instance" value="file:/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="path.separator.ivy.instance" value=":" />
+    <property name="sun.boot.class.path.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/resources.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jsse.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jce.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/charsets.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/classes" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="ivy.resolved.configurations" value="default, provided, test, jetty, minify" />
+    <property name="ivy.deliver.ivy.pattern" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64" />
+    <property name="build.dir" value="src/main/webapp/WEB-INF/classes" />
+    <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+    <property name="java.library.path.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64/server:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="ivy.basedir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="java.ext.dirs.ivy.instance" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+    <property name="sun.os.patch.level.ivy.instance" value="unknown" />
+    <property name="file.encoding.pkg.ivy.instance" value="sun.io" />
+    <property name="ivy.resolver.default.check.modified" value="false" />
+    <property name="ivy.settings.file.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="ivy.nb.targets.copied" value="0" />
+    <property name="ant.project.name" value="vraptor-scaffold" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="ivy.cache.dir.ivy.instance" value="/home/davi/.ivy2/cache" />
+    <property name="resources.dir" value="src/main/resources" />
+    <property name="ivy.status.ivy.instance" value="integration" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="file.separator.ivy.instance" value="/" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="ivy.deps.changed" value="false" />
+    <property name="os.version" value="2.6.38-8-generic" />
+    <property name="user.home" value="/home/davi" />
+    <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="ivy.organisation" value="prevbolsa" />
+    <property name="user.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+    <property name="ant.file.type.vraptor-scaffold" value="file" />
+    <property name="java.vm.info.ivy.instance" value="mixed mode" />
+    <property name="ivy.publish.src.artifacts.pattern" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="ivy.distrib.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa/distrib" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ivy.revision" value="working@note-davi" />
+    <property name="user.timezone.ivy.instance" value="America/Sao_Paulo" />
+    <property name="java.vm.version" value="19.1-b02" />
+    <property name="java.class.path" value="/home/davi/desenvolvimento/workspace/prevbolsa/lib/test/hamcrest-all-1.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/lib/test/junit-4.8.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/lib/test/mockito-all-1.8.5.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/antlr-2.7.6.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/asm-3.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/aspectjrt-1.6.9.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/cglib-2.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/cglib-nodep-2.1_3.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/commons-collections-3.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/commons-math-2.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/guava-r07.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Final.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hibernate-core-3.6.1.Final.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hibernate-entitymanager-3.6.1.Final.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hibernate-validator-4.1.0.Final.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/hsqldb-2.0.0.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/javassist-3.12.0.GA.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/javassist-3.7.ga.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/jcommon-1.0.15.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/jfreechart-1.0.12.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/joda-time-1.6.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/jstl-1.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/jta-1.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/log4j-1.2.16.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/mirror-1.5.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.14.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/objenesis-1.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/ognl-2.7.3.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/paranamer-2.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/scannotation-1.0.2.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/slf4j-api-1.6.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/slf4j-log4j12-1.6.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/validation-api-1.0.0.GA.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/vraptor-3.3.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/xpp3_min-1.1.4c.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/xstream-1.3.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/lib/xstream-benchmark-1.3.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/lib/provided/jsp-api-2.1.jar:/home/davi/desenvolvimento/workspace/prevbolsa/lib/provided/servlet-api-2.5.jar:/home/davi/desenvolvimento/workspace/prevbolsa/target/test-classes:/home/davi/desenvolvimento/workspace/prevbolsa/src/main/webapp/WEB-INF/classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar" />
+    <property name="ivy.default.ivy.user.dir" value="/home/davi/.ivy2" />
+    <property name="user.home.ivy.instance" value="/home/davi" />
+    <property name="basedir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="ivy.conf.file" value="/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="java.awt.graphicsenv.ivy.instance" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.vendor.url.bug.ivy.instance" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="java.vm.specification.version.ivy.instance" value="1.0" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="java.awt.printerjob.ivy.instance" value="sun.print.PSPrinterJob" />
+    <property name="ivy.settings.dir.ivy.instance" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ivy.settings.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="file.separator" value="/" />
+    <property name="user.language.ivy.instance" value="pt" />
+    <property name="user.country.ivy.instance" value="BR" />
+    <property name="ivy.conf.url.ivy.instance" value="file:/home/davi/desenvolvimento/workspace/prevbolsa/ivysettings.xml" />
+    <property name="java.runtime.version" value="1.6.0_24-b07" />
+    <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/resources.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jsse.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jce.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/charsets.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/classes" />
+    <property name="ivy.conf.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="ivy.retrieve.pattern" value="/home/davi/desenvolvimento/workspace/prevbolsa/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="user.country" value="BR" />
+    <property name="java.version.ivy.instance" value="1.6.0_24" />
+    <property name="ivy.resolved.file" value="/home/davi/desenvolvimento/workspace/prevbolsa/ivy.xml" />
+    <property name="test.resources.dir" value="src/test/resources" />
+    <property name="os.arch.ivy.instance" value="amd64" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="ivy.project.dir" value="/home/davi/desenvolvimento/workspace/prevbolsa" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+  </properties>
+  <testcase classname="net.davinogueira.prevbolsa.models.UsuarioTest" name="fakeTest" time="0.0050" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
